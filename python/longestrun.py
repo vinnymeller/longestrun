@@ -43,4 +43,5 @@ def calcfactorial(n):
 		sumation = sumation * (i+2)
 	return sumation
 
-print(biased_coin_recursion(14, 7000, 0.5))
+print(fair_coin_recursion(20, 100000))
+print(biased_coin_recursion(4, 2000, 0.1))
